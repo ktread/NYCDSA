@@ -206,3 +206,30 @@ while (i <= obs) {
     cat('WARNING: Missing width for sign no.', i, '\n')
   }
   i = i +1 }
+
+s = c()
+v = 1:5
+for (i in 1:length(v)){
+  s[i]= v[i]^2
+}
+
+s=v^2  # Much better way to iterate through vector
+s
+
+x2 = logical(1e4)
+x2
+
+i = 2
+x = c(1,1)
+
+
+#RECURSION 
+
+fibo <- function(n){
+  if(n==1 | n==2){
+    return(1)
+  }
+  return(fibo(n-1) + fibo(n-2))
+}
+
+sapply(1:30, fibo)
