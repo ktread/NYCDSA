@@ -1,0 +1,32 @@
+createdAt: "2019-07-03T13:35:22.970Z"
+updatedAt: "2019-07-03T13:55:46.496Z"
+type: "MARKDOWN_NOTE"
+folder: "5c2622ff2837a9368f9c"
+title: "Git and GitHub"
+tags: []
+content: '''
+  ## Git and GitHub
+  
+  ### What is Git
+  Git is a distributed version control system (DVCS)
+  
+  Centralized version control system, every client fully mirrors the repo and has a full storage backup of all the data
+  
+  If the server dies, the client repos can be copied to the server to restore it
+   
+   Benefits:
+    * Performance
+    * Security 
+    * Flexibility
+  
+  
+  | Command        | Use        |
+  | ------------- |:-------------:|
+  |git --version| gets the current version installed|
+  |git config --list --global| global information on login saved to .gitconfig in home directory|
+  |git init|creates a new repo (do it only in the folder you want to create a repo)|
+  |git clone|downloads an existing repo from github|
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
