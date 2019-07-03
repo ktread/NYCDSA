@@ -1,5 +1,5 @@
 createdAt: "2019-07-03T13:35:22.970Z"
-updatedAt: "2019-07-03T13:55:46.496Z"
+updatedAt: "2019-07-03T14:51:15.304Z"
 type: "MARKDOWN_NOTE"
 folder: "5c2622ff2837a9368f9c"
 title: "Git and GitHub"
@@ -19,6 +19,15 @@ content: '''
     * Security 
     * Flexibility
   
+  Git has three sections
+  
+  * Working Directory
+    * Like writing your doc
+  * Staging Area (Index)
+    * When you save your doc -  you can save as many times are you want (same as git add)
+  * Final Repo
+    * Ready to publish your doc/submit - git commit 
+  
   
   | Command        | Use        |
   | ------------- |:-------------:|
@@ -26,6 +35,8 @@ content: '''
   |git config --list --global| global information on login saved to .gitconfig in home directory|
   |git init|creates a new repo (do it only in the folder you want to create a repo)|
   |git clone|downloads an existing repo from github|
+  |git commit (-m)| committing (with a message to avoid vim)|
+  
 '''
 linesHighlighted: []
 isStarred: false
