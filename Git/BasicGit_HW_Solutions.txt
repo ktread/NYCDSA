@@ -1,0 +1,63 @@
+# Q1
+# 1.1
+mkdir test
+cd test
+git init
+
+# 1.2
+echo 'Git is good' > a.txt
+git add a.txt
+
+# 1.3
+git status
+
+# 1.4
+git commit -m 'Question 1 of Github Homework'
+git status
+
+# Q2
+# 2.1
+mkdir subtest
+cd subset
+touch b.txt
+echo 'This is for the second question' > b.txt
+
+# 2.2
+cd ..
+touch a1.txt a2.txt
+git add --all
+
+# 2.3
+git status
+git commit -m "Adding more files."
+
+# 2.4
+git log
+
+# Q3
+# 3.1
+git remote add origin https://github.com/username/test.git (This one should be different for each user.)
+
+
+# 3.2
+echo 'Github is awesome' >> a.txt
+git add a.txt
+
+# 3.3
+git diff --cached a.txt
+
+# 3.4
+git commit -m "Question 3"
+git pull
+git push
+
+# Q4
+# 4.2
+git add a1.txt
+git reset HEAD a1.txt
+git checkout -- a1.txt
+
+# 4.3
+git add a1.txt
+git commit -m "This is question 4"
+git revert 1848b235d1c7603f0436d5a9e7102028484d3ad2 (This one should be different for each user)
