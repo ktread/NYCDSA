@@ -1,3 +1,0 @@
-pumpkin 3.99
-potato 2
-apple 2.99

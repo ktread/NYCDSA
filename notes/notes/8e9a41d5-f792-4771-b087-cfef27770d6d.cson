@@ -1,0 +1,34 @@
+createdAt: "2019-07-09T13:36:16.495Z"
+updatedAt: "2019-07-09T14:17:50.334Z"
+type: "MARKDOWN_NOTE"
+folder: "5c2622ff2837a9368f9c"
+title: "Data Structures and Control Flowes"
+tags: []
+content: '''
+  ### Data Structures and Control Flowes
+  
+  
+  * Mutating - nothing is returned from the operation 
+    * The most important mutating operation is the assignment operation
+  * Non-mutation - something is returned
+  
+  ## Common Commands
+  | Term       | Definiton        |
+  | ------------- |:-------------:|
+  |!| everything following this is a Unix command|
+  |open(file,mode)|opens file in a certain mode (r -read)(w-write)(a-append)|
+  |.readlines()|reads file into a string in a list|
+  |.close()|closes the connection to a file - don't forget to do this will cause  permissions error|
+  
+  
+  ## Data Scructures
+  
+  | Term       | Definiton        | Mutability|
+  | ------------- |:-------------:|-------------:|
+  |sets|unordered collections without duplicates|??
+  |dictionaries (hashmaps)|unordered with key,value pairs|??
+  |lists||mutable
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
