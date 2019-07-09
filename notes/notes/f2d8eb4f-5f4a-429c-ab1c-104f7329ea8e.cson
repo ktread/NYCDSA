@@ -1,5 +1,5 @@
 createdAt: "2019-07-03T13:35:22.970Z"
-updatedAt: "2019-07-03T14:51:15.304Z"
+updatedAt: "2019-07-04T00:29:59.895Z"
 type: "MARKDOWN_NOTE"
 folder: "5c2622ff2837a9368f9c"
 title: "Git and GitHub"
@@ -28,6 +28,20 @@ content: '''
   * Final Repo
     * Ready to publish your doc/submit - git commit 
   
+  #### Git Status vs Git Log
+  
+  * Git status is good for the current commit
+  * Git log is the history of your commits
+  
+  #### Terms
+  * Head
+    * the most recent commit 
+  * Detached Head State
+    * You moved the head of the repo to a previous commit
+    * Snapshot of what the repo looked like
+    * you can go back to where you were
+  * Git RM
+    * Removes files completely from repo
   
   | Command        | Use        |
   | ------------- |:-------------:|
@@ -36,6 +50,16 @@ content: '''
   |git init|creates a new repo (do it only in the folder you want to create a repo)|
   |git clone|downloads an existing repo from github|
   |git commit (-m)| committing (with a message to avoid vim)|
+  |git commit (-am)|adds and commits all changes in repo (not new)|
+  |git diff|show changes in previous commit vs current|
+  |git log (--oneline)|shows entire log of commits |
+  |git checkout .hashid. | go to that location|
+  |git checkout master|goes back to original head |
+  |git revert |takes a specified commit and creates a new commit which inverses the specified commit|
+  |git reset|Discard commits in a private branch or throw away uncommited changes|
+  |git checkout . |undoes changes to all files |
+  |git rm (--cached)| remove file (removes from gir repo) / when a file it too big|
+  |git remote -v|shows URL for remote repo|
   
 '''
 linesHighlighted: []
