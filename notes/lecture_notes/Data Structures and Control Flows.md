@@ -1,4 +1,4 @@
-  ### Data Structures and Control Flowes
+  ### Data Structures and Control Flows
   
   
   * Mutating - nothing is returned from the operation 
