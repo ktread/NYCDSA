@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec8eb37a-c945-40ff-8624-99d57696eb67" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Lecture/.ipynb_checkpoints/Data_Structures_and_Control_Flows_Homework_py3-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Lecture/.ipynb_checkpoints/Data_Structures_and_Control_Flows_Homework_py3-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/Lecture/Advanced_Topics_Homework_py3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Lecture/Advanced_Topics_Homework_py3.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Lecture/Advanced_Topics_py3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Lecture/Advanced_Topics_py3.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Lecture/Data_Structures_and_Control_Flows_Homework_py3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Lecture/Data_Structures_and_Control_Flows_Homework_py3.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Lecture/Get_Started_with_Python_Homework_py3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Lecture/Get_Started_with_Python_Homework_py3.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Lecture/simple.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Lecture/simple.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Lecture/Introduction_to_Web_Scraping/Introduction_to_Web_Scraping.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Lecture/Introduction_to_Web_Scraping/Introduction_to_Web_Scraping.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/lecture_notes/Data Structures and Control Flows.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,31 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/notes/convertmd.py">
+        <entry file="file://$PROJECT_DIR$/Python/Lecture/Introduction_to_Scrapy/wiki/wiki/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notes/notes/4a7da1b6-1a17-4a2a-87e2-4e4a05e31175.cson">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="4" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notes/io_handler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -75,6 +50,7 @@
         <option value="$PROJECT_DIR$/notes/8277e537-d5f8-4a80-9e21-0ebcb3f6ed0f.cson" />
         <option value="$PROJECT_DIR$/notes/io_handler.py" />
         <option value="$PROJECT_DIR$/notes/convertmd.py" />
+        <option value="$PROJECT_DIR$/Python/Lecture/Introduction_to_Scrapy/wiki/wiki/items.py" />
       </list>
     </option>
   </component>
@@ -116,14 +92,37 @@
             <path>
               <item name="NYCDSA" type="b2602c69:ProjectViewProjectNode" />
               <item name="NYCDSA" type="462c0819:PsiDirectoryNode" />
-              <item name="notes" type="462c0819:PsiDirectoryNode" />
-              <item name="lecture_notes" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NYCDSA" type="b2602c69:ProjectViewProjectNode" />
               <item name="NYCDSA" type="462c0819:PsiDirectoryNode" />
-              <item name="notes" type="462c0819:PsiDirectoryNode" />
-              <item name="notes" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Lecture" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NYCDSA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NYCDSA" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Lecture" type="462c0819:PsiDirectoryNode" />
+              <item name="Introduction_to_Scrapy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NYCDSA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NYCDSA" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Lecture" type="462c0819:PsiDirectoryNode" />
+              <item name="Introduction_to_Scrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="wiki" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NYCDSA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NYCDSA" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Lecture" type="462c0819:PsiDirectoryNode" />
+              <item name="Introduction_to_Scrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="wiki" type="462c0819:PsiDirectoryNode" />
+              <item name="wiki" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,15 +197,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33403805" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23275408" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40120482" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28118813" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -238,19 +236,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/markdown/4a7da1b6-1a17-4a2a-87e2-4e4a05e31175.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes/markdownLinux">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/notes/markdown/4a7da1b6-1a17-4a2a-87e2-4e4a05e31175.md" />
+    <entry file="file://$PROJECT_DIR$/notes/markdownLinux" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -259,34 +246,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/lecture_notes/349c60bb-8629-4d95-a831-c5f6164524c3.md">
+    <entry file="file://$PROJECT_DIR$/notes/lecture_notes/349c60bb-8629-4d95-a831-c5f6164524c3.md" />
+    <entry file="file://$PROJECT_DIR$/notes/lecture_notes/63157a80-604d-4066-a0fb-d4ed31054748.md" />
+    <entry file="file://$PROJECT_DIR$/notes/lecture_notes/a261ba46-b363-4620-a11c-cfc314cf8959.md" />
+    <entry file="file://$PROJECT_DIR$/notes/lecture_notes/8e9a41d5-f792-4771-b087-cfef27770d6d.md" />
+    <entry file="file://$PROJECT_DIR$/notes/lecture_notes/Git and GitHub.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes/lecture_notes/63157a80-604d-4066-a0fb-d4ed31054748.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes/lecture_notes/a261ba46-b363-4620-a11c-cfc314cf8959.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes/lecture_notes/8e9a41d5-f792-4771-b087-cfef27770d6d.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
@@ -295,16 +264,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes/lecture_notes/Git and GitHub.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -322,6 +281,13 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Lecture/Introduction_to_Scrapy/wiki/wiki/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
