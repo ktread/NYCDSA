@@ -1,9 +1,17 @@
-  ### Data Structures and Control Flows
+  ### Python Data Structures and Control Flows
   
   
   * Mutating - nothing is returned from the operation 
     * The most important mutating operation is the assignment operation
   * Non-mutation - something is returned
+  
+  
+  ## List Comprehension
+  * Formats
+  * If else:
+     * [expr1 if boolean else expr2 for element in list]
+  * if only:
+    *  [expresion for element in list if boolean]
   
   ## Common Commands
   | Term       | Definiton        |
