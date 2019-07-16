@@ -25,6 +25,22 @@
     * Classes which define how a certain site or group of sites will be scraped
   * You define pipelines:
     * Classes that sequentially process data
+  * __init__.py
+    * Inicates that it's a package and each flie is a module in the folder
+    * Empty since it's a placeholder - just shows it is a package
+  
+  * XPATH
+    * Index starts at 1 :(
+    * language for selecting tags in XML or HTML
+    * single slash / means direct child of the current tag
+    * double slash // means _any_ decendant of the currnt tag 
+    * a dot . refers to the current tag
+    * //tr (gives you all tr tags in the entire doc)
+    * ./td[2] (select the second td tag after the current tag)
+    * @ finds tag with certain attributes 
+      * //div[@class = "mine"] selects all the div tags with this class attr
+      * //*[@class="mine"] select all tags in this class
+    * .etract_first() - dealing with empty lists
   
   
   ### Common Commands and Definitions
