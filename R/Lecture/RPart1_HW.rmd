@@ -1,0 +1,78 @@
+---
+title: "RPart1_Homework"
+author: "NYC Data Science Academy"
+output: html_document
+---
+## Question #1	
+
+Compound interest can be computed using the formula
+$$A = P (1+\frac{r}{100}) ^n$$
+where P is the original money lent, A is what it amounts to in n years at R percent per year interest. Write an R command to calculate a vector of numbers indicating the amount of money owed (A) after n years, where n ranges from 1 to 15 in yearly increments. The original amount lent is 5000 dollars (P) and the interest rate remains constant throughout the period at 11.5% (r). 
+
+```{r Question 1}
+
+
+```
+
+## Question #2
+
+Assume that we have collected the heights and weights of four people. The heights (in cm) are 180, 165, 160, 193; the respective weights (in kg) are 87, 58, 65, 100. Create two vectors, `height` and `weight`, using the data. Body mass index (BMI) is defined as
+$$BMI = \frac{mass_{kg}}{height_{m}^2}$$
+Write an R command to make a vector calculating the BMI values for the four people. Be careful of the units! As a challenge, use the height vector to make a boolean vector named `tall` of the heights above 6 feet.
+
+```{r Question 2}
+
+
+```
+
+
+## Question #3:
+
+1. From your RStudio, import the built-in cars dataset by running `data(cars)`.
+
+2. Print the first 5 lines from cars.
+
+3. Randomly generate a vector as long as the the number of rows in cars containing elements NY, CA or CT. Call the vector `state`. Run the code `set.seed(0)` on the line above your vector. This makes your results reproducible (anybody who runs the code `set.seed(0)` on their randomized vector will end up with the same random vector you generated). 
+
+4. Add state to the data frame cars as a new column. Again name the column `state`.
+
+5. Create a new column `ratio` whose value is the ratio `dist`/`speed`. Then compute the average and standard deviation of that column.
+
+```{r Question 3}
+
+```
+
+
+## Question #4: 
+
+Read the `TimesSquareSignage.csv` and import it into R as `ts_data`. Then check the following features of the dataset:
+
+1. The number of observations and the number of variables.
+
+2. The type (`class`) of each variable.
+
+3. How many missing values are there in the dataset?
+
+4. Which rows (people) have missing values? Which columns (variables) include missing values?
+
+```{r Question 4}
+ts_data = read.csv('https://s3.amazonaws.com/graderdata/TimesSquareSignage.csv', stringsAsFactors=FALSE)
+```
+
+## Question #5:
+
+From the Time Square dataset, we'd like to extract specific information about advertising in Midtown Manhattan. Obtain the following data frames and save them in a subfolder named `data` in your current directory as CSV files:
+
+1. Observations from Upper Broadway. Save as `UpperBway.csv`.
+
+2. Observations with greater-than-average square footage. Save as `SF.csv`.
+
+3. The name, address, and location of the ten signs with the largest total square footage. Save as `TopTen.csv`. 
+
+```{r Question 5}
+
+```
+
+
+
+
