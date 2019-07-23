@@ -1,5 +1,10 @@
   ### Python Basics
   
+  * Check bad shit first.
+    * you can reduce complexity on each line by limiting the scope of what you care about to each line
+    * don't carry complexity beyond where you absolutely have to
+    * Actively organize code
+    * You're not clever enough to debug the most clever code you can write
   * Return functions are used by the program which can use the result
   * Printing is for your eyes only
   * Classes are typically written with first letter capitalized\\
