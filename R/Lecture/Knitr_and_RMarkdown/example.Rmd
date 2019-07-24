@@ -1,0 +1,66 @@
+---
+title: "Example Walkthrough"
+author: "NYC Data Science Academy"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+*This is italic*
+
+***This is italic and bold***
+
+# Header 1
+
+## Header 2
+
+### Header 3
+
+### Example Workflow of the shiny project
+
+* Pick a dataset
+* Save the dataset to a sqlite database
+* Build user interface in ui.R
+* Build server backend in server.R
+    + Write query to extract the data from database according to user input
+    + Use dplyr/tidyr to preprocess the data if needed
+    + Use ggplot2/plotly/googleVis/leaflet to visualize your data
+
+
+### R code chunks
+```{r cars, echo=TRUE}
+summary(cars)
+```
+
+```{r load_library, message=TRUE}
+library(dplyr)
+```
+
+```{r bar_plot, echo=TRUE, fig.height=7, fig.width=9, dev='png', fig.path='./figure/'}
+
+library(ggplot2)
+    
+ggplot(data = diamonds, aes(x = color)) +
+    
+geom_bar(aes(fill = cut), position = "dodge")
+    
+```
+
+### Introduction
+
++ NYC's Department of Health and Mental Hygiene (DOHMH) conducts unannounced inspections of restaurants at least once a year to check food handling, food temperature, personal hygiene, and vermin control. Since 2010, NYC restaurants have to prominently post their Grade (e.g. A/B/C) which empowers diners with decision-making information and incentivizes establishments to improve their hygiene.
+
++ Download the csv file from [here](https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j) and rename it to `data.csv`. Move the file to the same directory of your markdown file and use relative path to read it.
+
+### Load dataset
+**You need to change eval=TRUE after you move the data.csv in the same directory**
+```{r load_data, cache=TRUE, warning=FALSE, eval=FALSE}
+library(data.table)
+raw.df <- fread("./data.csv", stringsAsFactors = F)
+raw.df <- as.data.frame(raw.df)
+str(raw.df)
+```
+
+
