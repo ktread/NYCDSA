@@ -10,6 +10,10 @@ $$A = P (1+\frac{r}{100}) ^n$$
 where P is the original money lent, A is what it amounts to in n years at R percent per year interest. Write an R command to calculate a vector of numbers indicating the amount of money owed (A) after n years, where n ranges from 1 to 15 in yearly increments. The original amount lent is 5000 dollars (P) and the interest rate remains constant throughout the period at 11.5% (r). 
 
 ```{r Question 1}
+n = 1:15
+P = 5000
+r = .115
+A = P*((1+ r)^n)
 
 
 ```
@@ -21,7 +25,12 @@ $$BMI = \frac{mass_{kg}}{height_{m}^2}$$
 Write an R command to make a vector calculating the BMI values for the four people. Be careful of the units! As a challenge, use the height vector to make a boolean vector named `tall` of the heights above 6 feet.
 
 ```{r Question 2}
+height = c(180, 165, 160, 193)
+weight = c(87, 58, 65, 100)
 
+BMI =  (weight)/(height/100)
+
+tall = height > 182.88
 
 ```
 
@@ -39,7 +48,26 @@ Write an R command to make a vector calculating the BMI values for the four peop
 5. Create a new column `ratio` whose value is the ratio `dist`/`speed`. Then compute the average and standard deviation of that column.
 
 ```{r Question 3}
+#1.
+data(cars)
 
+#2.
+head(cars, n =5) 
+
+#3 
+set.seed(0)
+state = sample(x = c('NY', 'CA', 'CT'), size = length(cars$speed), replace = TRUE)
+
+
+#4.
+cars$state = sample(x = c('NY', 'CA', 'CT'), size = length(cars$speed), replace = TRUE)
+
+#5.
+
+cars$ratio = (cars$dist/cars$speed)
+
+mean(cars$ratio)
+sd(cars$ratio)
 ```
 
 
@@ -57,6 +85,22 @@ Read the `TimesSquareSignage.csv` and import it into R as `ts_data`. Then check 
 
 ```{r Question 4}
 ts_data = read.csv('https://s3.amazonaws.com/graderdata/TimesSquareSignage.csv', stringsAsFactors=FALSE)
+
+# 1.
+nrow(ts_data)
+
+#2.
+sapply(ts_data,class)
+
+#3.
+sum(is.na(ts_data))
+
+#4.
+View(ts_data)
+
+which(is.na(ts_data$Screen.Name..LED...Vinyl.Signs.))
+
+colSums(is.na(ts_data))
 ```
 
 ## Question #5:
@@ -71,6 +115,19 @@ From the Time Square dataset, we'd like to extract specific information about ad
 
 ```{r Question 5}
 
+#1.
+ts_data = data.frame(ts_data)
+UpperBway <- ts_data[ts_data$Location	 == "Upper Bway",]
+write.csv(UpperBway,'UpperBway.csv',row.names=FALSE)
+
+#2.
+mean_sf = mean(ts_data$SF)
+SF <- ts_data[ts_data$SF>mean_sf,]
+write.csv(SF, 'SF.csv',row.names=FALSE)
+
+#.3
+TopTen = ts_data[order(-ts_data$TOTAL.SF),][1:10,c(1,2,4)]
+write.csv(TopTen, 'TopTen.csv',row.names=FALSE)
 ```
 
 
