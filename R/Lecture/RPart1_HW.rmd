@@ -1,9 +1,13 @@
 ---
 title: "RPart1_Homework"
 author: "NYC Data Science Academy"
+<<<<<<< HEAD
 output:
   pdf_document: default
   html_document: default
+=======
+output: html_document
+>>>>>>> 41f05d4f1b8d27130883ce9439abeda431a4d568
 ---
 ## Question #1	
 
@@ -33,6 +37,8 @@ weight = c(87, 58, 65, 100)
 BMI =  (weight)/(height/100)
 
 tall = height > 182.88
+=======
+
 
 ```
 
@@ -70,6 +76,7 @@ cars$ratio = (cars$dist/cars$speed)
 
 mean(cars$ratio)
 sd(cars$ratio)
+
 ```
 
 

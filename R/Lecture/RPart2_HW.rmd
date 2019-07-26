@@ -13,6 +13,7 @@ Consider all the Fibonacci numbers whose values do not exceed four million. Find
 
 ```{r Question 1}
 
+
 fib <- c(1, 2)  #Define first two numbers
 while (max(fib) < 4e+06) {
     # Generate Fibonacci numbers until limit is reached
@@ -20,6 +21,7 @@ while (max(fib) < 4e+06) {
     fib <- c(fib, fib[len - 1] + fib[len])
 }
 answer <- sum(fib[fib%%2 == 0])
+
 
 
 ```
@@ -51,6 +53,15 @@ func <- function(mat,vec) {
 total <- func(mat,vec)
 ```
 
+=======
+\begin{align}y[i] = \sum_{j=1}^nA[i,j]x[j] \text{ for } i = 1,2,3,...m\end{align}
+
+```{r Question 2}
+
+```
+
+
+>>>>>>> 41f05d4f1b8d27130883ce9439abeda431a4d568
 ## Question #3:
 
 Write a function that calculates the median absolute deviation (MAD) of a numeric vector. The median absolute deviation is a robust alternative to standard deviation as a measure of dispersion. For vector X, it is defined as  
@@ -66,7 +77,7 @@ mad <- function(n) {
 
 mad(n)
      
-```
+=======
 
 
 ## Question #4: 
@@ -83,6 +94,10 @@ N = gsub(" ", "", N)
 G = paste(N, "@gmail.com", sep = '')
 gsub(";","",toString(G))
 sapply(x,tolower)
+\begin{align}\text{"John@gmail.com; Andrew@gmail.com; Thomas@gmail.com"}\end{align}
+
+```{r Question 4}
+
 ```
 
 ## Question #5:

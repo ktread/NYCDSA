@@ -4,8 +4,6 @@ author: "NYC Data Science Academy"
 output:
   pdf_document: default
   html_document: default
----
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -38,9 +36,6 @@ summary(cars)
 
 ```{r load_library, message=TRUE}
 library(dplyr)
-
-```
-
 ```{r bar_plot, echo=TRUE, fig.height=7, fig.width=9, dev='png', fig.path='./figure/'}
 
 library(ggplot2)
